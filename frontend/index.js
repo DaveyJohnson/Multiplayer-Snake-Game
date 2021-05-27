@@ -3,7 +3,7 @@ const SNAKE_COLOR = '#231f20';
 const SNAKE2_COLOR = 'red';
 const FOOD_COLOR = '#e66916';
 
-const socket = io('http://127.0.0.1:3000');
+const socket = io('https://aqueous-fjord-33902.herokuapp.com/');
 
 socket.on('init', handleInit);
 socket.on('gameState', handleGameState);
