@@ -31,7 +31,7 @@ function createGameState() {
         },
         {
             pos: {
-                x: 18,
+                x: 12,
                 y: 10,
             },
             velocity: {
@@ -39,9 +39,9 @@ function createGameState() {
                 y: 0,
             },
             snake: [
-                {x: 20, y: 10},
-                {x: 19, y: 10},
-                {x: 18, y: 10},
+                {x: 10, y: 10},
+                {x: 11, y: 10},
+                {x: 12, y: 10},
             ],
         }],
         food: {},
